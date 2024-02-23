@@ -15,7 +15,6 @@ const Home = () => {
             <NavBar></NavBar>
             <div className='flex justify-between lg:px-10 px-3 lg:my-8 my-4'>
             <LeftSide card= {user}></LeftSide>
-            {/* <Middle></Middle> */}
             <Outlet></Outlet>
             <RightSide></RightSide>
 

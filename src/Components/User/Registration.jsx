@@ -27,7 +27,7 @@ const Registration = () => {
                         console.log("Your Profile is Updated");
                         // console.log(result.user);
                         userVerify()
-                            .then(() => {
+                            .then((res) => {
                                 console.log("check your email");
                                 logOut()
                             })

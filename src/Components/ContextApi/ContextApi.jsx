@@ -50,7 +50,7 @@ return sendEmailVerification(auth.currentUser)
     },[])
     console.log(user);
 
-    const data = {user,createUser,signUser, logOut, updateUser,userVerify}
+    const data = {user,createUser,signUser, logOut, updateUser,userVerify, loading}
     return (
        <Context.Provider value={data}>
         {children}
